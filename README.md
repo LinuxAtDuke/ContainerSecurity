@@ -1,9 +1,9 @@
 Container Security Best Practices
-------------------------------
+=================================
 
 Last Updated 2017-04-25
 
-# Policy Security
+## Policy Security
 
 Security policy might be more important than actual system configuration in terms of configuring Docker securely.
 
@@ -20,7 +20,7 @@ _Only trusted users get access to run docker commands_
 
 ---
 
-# Policy Security cont.
+## Policy Security cont.
 
 _Do not run untrusted container images_
 
@@ -36,7 +36,7 @@ In addition to the software patches themselves, you should also audit the softwa
 
 At this point we are leading away from policy and into System Security...
 
-# System Security 
+## System Security 
 
 _Consider Blocking Untrusted Registries_
 
@@ -117,7 +117,7 @@ Namespaces in Docker prevent users from running privileged contianers, accessing
 
 Even better than namespaces are completely unprivileged containers, such as those used by the [Singularity container project](http://singularity.lbl.gov/).  
 
-# License
+## License
 
 The information contained in this repository is licensed: 
 
